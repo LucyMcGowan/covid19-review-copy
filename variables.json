@@ -1,0 +1,205 @@
+{
+  "pandoc": {
+    "title": "SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics",
+    "keywords": [
+      "covid-19",
+      "coronavirus",
+      "pandemic",
+      "viral infection"
+    ],
+    "lang": "en-US",
+    "date-meta": "2020-03-25",
+    "author-meta": [
+      "Halie M. Rando",
+      "Casey S. Greene",
+      "Michael P. Robson",
+      "Simina M. Boca",
+      "Nils Wellhausen",
+      "Christian Brueffer"
+    ],
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta name=\"citation_title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta property=\"og:title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta property=\"twitter:title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta name=\"dc.date\" content=\"2020-03-25\" />\n<meta name=\"citation_publication_date\" content=\"2020-03-25\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Halie M. Rando\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7688-1770\" />\n<meta name=\"twitter:creator\" content=\"@tamefoxtime\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"twitter:creator\" content=\"@GreeneScientist\" />\n<meta name=\"citation_author\" content=\"Michael P. Robson\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computing Sciences, Villanova University, Villanova, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4859-0033\" />\n<meta name=\"citation_author\" content=\"Simina M. Boca\" />\n<meta name=\"citation_author_institution\" content=\"Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of Columbia, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1400-3398\" />\n<meta name=\"citation_author\" content=\"Nils Wellhausen\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8955-7582\" />\n<meta name=\"citation_author\" content=\"Christian Brueffer\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Sciences, Lund University, Lund, Sweden\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3826-0989\" />\n<meta name=\"twitter:creator\" content=\"@cbrueffer\" />\n<link rel=\"canonical\" href=\"https://LucyMcGowan.github.io/covid19-review-copy/\" />\n<meta property=\"og:url\" content=\"https://LucyMcGowan.github.io/covid19-review-copy/\" />\n<meta property=\"twitter:url\" content=\"https://LucyMcGowan.github.io/covid19-review-copy/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://LucyMcGowan.github.io/covid19-review-copy/\" />\n<meta name=\"citation_pdf_url\" content=\"https://LucyMcGowan.github.io/covid19-review-copy/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://LucyMcGowan.github.io/covid19-review-copy/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://LucyMcGowan.github.io/covid19-review-copy/v/cd9810e2259e88f7fa64a9976efce3541776d64a/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://LucyMcGowan.github.io/covid19-review-copy/v/cd9810e2259e88f7fa64a9976efce3541776d64a/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://LucyMcGowan.github.io/covid19-review-copy/v/cd9810e2259e88f7fa64a9976efce3541776d64a/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "bibliography": [
+      "content/manual-references.json"
+    ],
+    "manubot-output-bibliography": "output/references.json",
+    "manubot-output-citekeys": "output/citations.tsv",
+    "manubot-requests-cache-path": "ci/cache/requests-cache",
+    "manubot-clear-requests-cache": false
+  },
+  "manubot": {
+    "date": "March 25, 2020",
+    "authors": [
+      {
+        "github": "rando2",
+        "name": "Halie M. Rando",
+        "initials": "HMR",
+        "orcid": "0000-0001-7688-1770",
+        "twitter": "tamefoxtime",
+        "email": "halie.rando@pennmedicine.upenn.edu",
+        "contributions": [
+          "Project Administration",
+          "Writing - Original Draft",
+          "Methodology"
+        ],
+        "affiliations": [
+          "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America"
+        ],
+        "coi": {
+          "string": "None",
+          "lastapproved": "2020-03-22"
+        },
+        "funders": "the Gordon and Betty Moore Foundation (GBMF 4552)",
+        "affiliation_numbers": [
+          1
+        ]
+      },
+      {
+        "github": "cgreene",
+        "name": "Casey S. Greene",
+        "initials": "CSG",
+        "orcid": "0000-0001-8713-9213",
+        "twitter": "GreeneScientist",
+        "email": "greenescientist@gmail.com",
+        "contributions": [
+          "Conceptualization",
+          "Software"
+        ],
+        "affiliations": [
+          "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America",
+          "Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, Pennsylvania, United States of America"
+        ],
+        "coi": {
+          "string": "None",
+          "lastapproved": "2020-03-22"
+        },
+        "funders": "the Gordon and Betty Moore Foundation (GBMF 4552)",
+        "affiliation_numbers": [
+          1,
+          2
+        ]
+      },
+      {
+        "github": "mprobson",
+        "name": "Michael P. Robson",
+        "initials": "MPR",
+        "orcid": "0000-0002-4859-0033",
+        "email": "michael.robson@villanova.edu",
+        "contributions": [
+          "Software"
+        ],
+        "affiliations": [
+          "Department of Computing Sciences, Villanova University, Villanova, Pennsylvania, United States of America"
+        ],
+        "coi": {
+          "string": "None",
+          "lastapproved": "2020-03-23"
+        },
+        "affiliation_numbers": [
+          3
+        ]
+      },
+      {
+        "github": "SiminaB",
+        "name": "Simina M. Boca",
+        "initials": "SMB",
+        "orcid": "0000-0002-1400-3398",
+        "email": "smb310@georgetown.edu",
+        "contributions": [
+          "Methodology"
+        ],
+        "affiliations": [
+          "Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of Columbia, United States of America"
+        ],
+        "coi": {
+          "string": "None",
+          "lastapproved": "2020-03-23"
+        },
+        "affiliation_numbers": [
+          4
+        ]
+      },
+      {
+        "github": "nilswellhausen",
+        "name": "Nils Wellhausen",
+        "initials": "NW",
+        "orcid": "0000-0001-8955-7582",
+        "email": "nilsw@pennmedicine.upenn.edu",
+        "contributions": [
+          "Writing - Original Draft"
+        ],
+        "affiliations": [
+          "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America"
+        ],
+        "coi": {
+          "string": "None",
+          "lastapproved": "2020-03-22"
+        },
+        "affiliation_numbers": [
+          1
+        ]
+      },
+      {
+        "github": "cbrueffer",
+        "name": "Christian Brueffer",
+        "initials": "CB",
+        "orcid": "0000-0002-3826-0989",
+        "twitter": "cbrueffer",
+        "email": "christian.brueffer@med.lu.se",
+        "contributions": [
+          "Writing - Original Draft"
+        ],
+        "affiliations": [
+          "Department of Clinical Sciences, Lund University, Lund, Sweden"
+        ],
+        "coi": {
+          "string": "None",
+          "lastapproved": "2020-03-25"
+        },
+        "affiliation_numbers": [
+          5
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "affiliation": "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America",
+        "affiliation_number": 1
+      },
+      {
+        "affiliation": "Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, Pennsylvania, United States of America",
+        "affiliation_number": 2
+      },
+      {
+        "affiliation": "Department of Computing Sciences, Villanova University, Villanova, Pennsylvania, United States of America",
+        "affiliation_number": 3
+      },
+      {
+        "affiliation": "Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of Columbia, United States of America",
+        "affiliation_number": 4
+      },
+      {
+        "affiliation": "Department of Clinical Sciences, Lund University, Lund, Sweden",
+        "affiliation_number": 5
+      }
+    ],
+    "ci_source": {
+      "provider": "github",
+      "repo_slug": "LucyMcGowan/covid19-review-copy",
+      "repo_owner": "LucyMcGowan",
+      "repo_name": "covid19-review-copy",
+      "commit": "cd9810e2259e88f7fa64a9976efce3541776d64a",
+      "triggering_commit": "cd9810e2259e88f7fa64a9976efce3541776d64a",
+      "build_url": "https://github.com/LucyMcGowan/covid19-review-copy/commit/cd9810e2259e88f7fa64a9976efce3541776d64a/checks",
+      "job_url": "https://github.com/LucyMcGowan/covid19-review-copy/runs/run2"
+    },
+    "html_url": "https://LucyMcGowan.github.io/covid19-review-copy/",
+    "pdf_url": "https://LucyMcGowan.github.io/covid19-review-copy/manuscript.pdf",
+    "html_url_versioned": "https://LucyMcGowan.github.io/covid19-review-copy/v/cd9810e2259e88f7fa64a9976efce3541776d64a/",
+    "pdf_url_versioned": "https://LucyMcGowan.github.io/covid19-review-copy/v/cd9810e2259e88f7fa64a9976efce3541776d64a/manuscript.pdf",
+    "manubot_version": "0.3.1",
+    "rootstock_commit": null,
+    "manuscript_stats": {
+      "word_count": 3456
+    }
+  }
+}
