@@ -1,0 +1,96 @@
+---
+title: "SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics"
+keywords:
+  - covid-19
+  - coronavirus
+  - pandemic
+  - viral infection
+lang: en-US
+authors:
+  -
+    github: rando2
+    name: Halie M. Rando
+    initials: HMR
+    orcid: 0000-0001-7688-1770
+    twitter: tamefoxtime
+    email: halie.rando@pennmedicine.upenn.edu
+    contributions:
+      - Project Administration
+      - Writing - Original Draft
+      - Methodology
+    affiliations:
+      - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-03-22
+    funders: the Gordon and Betty Moore Foundation (GBMF 4552)
+  -
+    github: cgreene
+    name: Casey S. Greene
+    initials: CSG
+    orcid: 0000-0001-8713-9213
+    twitter: GreeneScientist
+    email: greenescientist@gmail.com
+    contributions:
+      - Conceptualization
+      - Software
+    affiliations:
+      - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+      - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, Pennsylvania, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-03-22
+    funders: the Gordon and Betty Moore Foundation (GBMF 4552)
+  -
+    github: mprobson
+    name: Michael P. Robson
+    initials: MPR
+    orcid: 0000-0002-4859-0033
+    email: michael.robson@villanova.edu
+    contributions:
+      - Software
+    affiliations:
+      - Department of Computing Sciences, Villanova University, Villanova, Pennsylvania, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-03-23
+  -
+    github: SiminaB
+    name: Simina M. Boca
+    initials: SMB
+    orcid: 0000-0002-1400-3398
+    email: smb310@georgetown.edu
+    contributions:
+      - Methodology
+    affiliations:
+      - Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of Columbia, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-03-23
+  -
+    github: nilswellhausen
+    name: Nils Wellhausen
+    initials: NW
+    orcid: 0000-0001-8955-7582
+    email: nilsw@pennmedicine.upenn.edu
+    contributions:
+      - Writing - Original Draft
+    affiliations:
+      - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-03-22
+  -
+    github: cbrueffer
+    name: Christian Brueffer
+    initials: CB
+    orcid: 0000-0002-3826-0989
+    twitter: cbrueffer
+    email: christian.brueffer@med.lu.se
+    contributions:
+      - Writing - Original Draft
+    affiliations:
+      - Department of Clinical Sciences, Lund University, Lund, Sweden
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-03-25
